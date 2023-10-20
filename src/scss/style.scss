@@ -1,0 +1,27 @@
+// import font family from Google https://fonts.google.com
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700&display=swap");
+
+// import all bootstrap's css
+@import "bootstrap/scss/bootstrap";
+
+// import bootstrap icons
+@import url("../../node_modules/bootstrap-icons");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+// Progress Bar styles are here
+.skill .progress {
+	height: 40px;
+}
